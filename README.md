@@ -72,7 +72,14 @@ zoomcontrol.setOnZoomInClickListener(new View.OnClickListener() {
         });
 ```
 All it's doing is zooming in/out on a imageview called "star" which was first located by its X and Y properties, and then scaling those said properties by any increment/decrement, in this case 2. The code is uploaded, but heres a demonstration of that anyways:
+
 ![code demo](/Images/zoomcontroltest.gif)
+
+## References 
+
+Cptech. (2018, December 12). Zoom Controls Tutorial With Example In Android Studio: Android Solution: Zoom Control. Retrieved December 10, 2019, from http://androidssources.blogspot.com/2018/12/zoom-controls-tutorial-with-example-in.html.
+
+Hussain, Z., AbdulRehman, Bhushan, Luna, K. F. A. D., Zamil, UI, A., … Akshay. (n.d.). Zoom Controls Tutorial With Example In Android Studio. Retrieved December 10, 2019, from https://abhiandroid.com/ui/zoomcontrols.
 
 
 
