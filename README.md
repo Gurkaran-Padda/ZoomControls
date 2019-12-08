@@ -15,6 +15,8 @@ The reason being for its removal was because its purpose was better managed by c
 
 ## Major Methods/Attributes
 
+![Picture2](/Images/zoomcontrolattribute.png)
+
 
 
 
