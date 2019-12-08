@@ -19,7 +19,7 @@ The reason being for its removal was because its purpose was better managed by c
 
 Going to the drawable xml file, you can add zoomcontrols view by using ```<ZoomControls />``` along with another basic android view attribute manipulation. 
 
-The ZoomControls has many methods such ass ```SetIsZoomInEnabled()```/ ```SetIsZoomOutEnabled()``` and also ```setOnZoomInClickListener()``` and ```setOnZoomOutClickListener()```
+The ZoomControls has many methods such as ```SetIsZoomInEnabled()```/ ```SetIsZoomOutEnabled()``` and also ```setOnZoomInClickListener()``` and ```setOnZoomOutClickListener()```
 However, the more important methods that the ZoomControls class has is the ```show()``` and ```hide()``` functions which allow us to hide the ZoomControls button. Like the one shown in the following example:
 
 ![Gif](/Images/show-hide-in-ZoomControls-Android.gif)
