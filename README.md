@@ -17,6 +17,7 @@ The reason being for its removal was because its purpose was better managed by c
 
 ![Picture2](/Images/zoomcontrolattribute.png)
 
+Going to the drawable xml file, you can add zoomcontrols view by using <ZoomControls />
 
 
 
