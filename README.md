@@ -25,6 +25,53 @@ However, the more important methods that the ZoomControls class has is the ```sh
 ![Gif](/Images/show-hide-in-ZoomControls-Android.gif)
 
 ## Examples / Code
+Heres some sample code that will hide and show the ZoomControl
+```
+  button1.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            //demo the use of show() method
+        zoomcontrol.show();
+        }
+    });
+
+    button2.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            //showing the demo of hide() method
+            zoomcontrol.hide();
+        }
+    });
+```
+You also do not need to setup a onClickListener for the Zoomcontrol as it already has the method setOnZoomInClickListener(); and setOnZoomOutClickListener(); .Therefore, the code would look something like this:
+
+```
+zoomcontrol.setOnZoomInClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            //getting the image's X and Y on the screen
+            float x = star.getScaleX();
+            float y = star.getScaleY();
+            // zoom in on picture
+            star.setScaleX((float) (x + 2));
+            star.setScaleY((float) (y + 2));
+        }
+    });
+
+        //showing off the set on zoom click portion on the picture
+        zoomcontrol.setOnZoomOutClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //getting the image's X and Y on the screen
+                float x = star.getScaleX();
+                float y = star.getScaleY();
+                // zoom out on picture
+                star.setScaleX((float) (x - 2));
+                star.setScaleY((float) (y - 2));
+            }
+        });
+```
+All it's doing is zooming in/out on a imageview called "star" which was first located by its X and Y properties, and then scaling those said properties by any increment/decrement, in this case 2. The code is uploaded, but heres a demonstration of that anyways:
 ![code demo](/Images/zoomcontroltest.gif)
 
 
