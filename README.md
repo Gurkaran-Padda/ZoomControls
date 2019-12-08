@@ -24,5 +24,8 @@ However, the more important methods that the ZoomControls class has is the ```sh
 
 ![Gif](/Images/show-hide-in-ZoomControls-Android.gif)
 
+## Examples / Code
+
+
 
 
