@@ -43,7 +43,7 @@ Heres some sample code that will hide and show the ZoomControl
         }
     });
 ```
-You also do not need to setup a onClickListener for the Zoomcontrol as it already has the method setOnZoomInClickListener(); and setOnZoomOutClickListener(); .Therefore, the code would look something like this:
+You also do not need to setup a onClickListener for the Zoomcontrol as it already has the method setOnZoomInClickListener(); and setOnZoomOutClickListener(); .Therefore, the code would look something like this which has been tweaked from ZoomControls tutorial online blog to fit for my circumstances:
 
 ```
 zoomcontrol.setOnZoomInClickListener(new View.OnClickListener() {
